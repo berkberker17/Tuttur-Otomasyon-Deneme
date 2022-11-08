@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.6.5 on win32)" generated="20221108 14:53:28.490" rpa="false" schemaversion="2">
+<suite id="s1" name="tutturTest" source="C:\develop\robot\Alıştırma\test\tutturTest.robot">
+<test id="s1-t1" name="verify check the login">
+<kw name="check the login" library="tutturApp">
+<kw name="create session" library="tuttur">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221108 14:53:29.978" level="INFO">Opening browser 'chrome' to base url 'https://www.tuttur.com/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20221108 14:53:30.024" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20221108 14:53:30.022" endtime="20221108 14:53:30.024"/>
+</kw>
+<msg timestamp="20221108 14:53:30.093" level="FAIL">OSError: [WinError 216] Bu %1 sürümü çalıştırdığınız Windows sürümüyle uyumlu değil. Bilgisayarınızın sistem bilgilerini denetleyin ve ardından yazılım yayıncısına başvurun</msg>
+<status status="FAIL" starttime="20221108 14:53:29.977" endtime="20221108 14:53:30.094"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20221108 14:53:30.094" endtime="20221108 14:53:30.094"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath=//*[@id="header"]/div/div[1]/div[1]/div</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20221108 14:53:30.094" endtime="20221108 14:53:30.094"/>
+</kw>
+<status status="FAIL" starttime="20221108 14:53:29.976" endtime="20221108 14:53:30.095"/>
+</kw>
+<kw name="click the Login button" library="tuttur">
+<status status="NOT RUN" starttime="20221108 14:53:30.097" endtime="20221108 14:53:30.097"/>
+</kw>
+<kw name="close session" library="tuttur">
+<status status="NOT RUN" starttime="20221108 14:53:30.097" endtime="20221108 14:53:30.097"/>
+</kw>
+<status status="FAIL" starttime="20221108 14:53:29.975" endtime="20221108 14:53:30.097"/>
+</kw>
+<status status="FAIL" starttime="20221108 14:53:29.973" endtime="20221108 14:53:30.098">OSError: [WinError 216] Bu %1 sürümü çalıştırdığınız Windows sürümüyle uyumlu değil. Bilgisayarınızın sistem bilgilerini denetleyin ve ardından yazılım yayıncısına başvurun</status>
+</test>
+<test id="s1-t2" name="verify check the dashboard buttons">
+<kw name="check the dashboard buttons" library="tutturApp">
+<kw name="create session" library="tuttur">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221108 14:53:30.103" level="INFO">Opening browser 'chrome' to base url 'https://www.tuttur.com/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20221108 14:53:30.107" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20221108 14:53:30.107" endtime="20221108 14:53:30.107"/>
+</kw>
+<msg timestamp="20221108 14:53:30.109" level="FAIL">OSError: [WinError 216] Bu %1 sürümü çalıştırdığınız Windows sürümüyle uyumlu değil. Bilgisayarınızın sistem bilgilerini denetleyin ve ardından yazılım yayıncısına başvurun</msg>
+<status status="FAIL" starttime="20221108 14:53:30.103" endtime="20221108 14:53:30.109"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20221108 14:53:30.109" endtime="20221108 14:53:30.109"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath=//*[@id="header"]/div/div[1]/div[1]/div</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20221108 14:53:30.110" endtime="20221108 14:53:30.110"/>
+</kw>
+<status status="FAIL" starttime="20221108 14:53:30.102" endtime="20221108 14:53:30.110"/>
+</kw>
+<kw name="click the dashboard buttons" library="tuttur">
+<status status="NOT RUN" starttime="20221108 14:53:30.111" endtime="20221108 14:53:30.111"/>
+</kw>
+<kw name="close session" library="tuttur">
+<status status="NOT RUN" starttime="20221108 14:53:30.111" endtime="20221108 14:53:30.111"/>
+</kw>
+<status status="FAIL" starttime="20221108 14:53:30.101" endtime="20221108 14:53:30.112"/>
+</kw>
+<status status="FAIL" starttime="20221108 14:53:30.101" endtime="20221108 14:53:30.113">OSError: [WinError 216] Bu %1 sürümü çalıştırdığınız Windows sürümüyle uyumlu değil. Bilgisayarınızın sistem bilgilerini denetleyin ve ardından yazılım yayıncısına başvurun</status>
+</test>
+<test id="s1-t3" name="verify check the footer buttons">
+<kw name="check the footer buttons" library="tutturApp">
+<kw name="create session" library="tuttur">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221108 14:53:30.121" level="INFO">Opening browser 'chrome' to base url 'https://www.tuttur.com/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20221108 14:53:30.125" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20221108 14:53:30.124" endtime="20221108 14:53:30.125"/>
+</kw>
+<msg timestamp="20221108 14:53:30.126" level="FAIL">OSError: [WinError 216] Bu %1 sürümü çalıştırdığınız Windows sürümüyle uyumlu değil. Bilgisayarınızın sistem bilgilerini denetleyin ve ardından yazılım yayıncısına başvurun</msg>
+<status status="FAIL" starttime="20221108 14:53:30.120" endtime="20221108 14:53:30.127"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20221108 14:53:30.127" endtime="20221108 14:53:30.127"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath=//*[@id="header"]/div/div[1]/div[1]/div</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="NOT RUN" starttime="20221108 14:53:30.127" endtime="20221108 14:53:30.127"/>
+</kw>
+<status status="FAIL" starttime="20221108 14:53:30.120" endtime="20221108 14:53:30.128"/>
+</kw>
+<kw name="click the footer buttons" library="tuttur">
+<status status="NOT RUN" starttime="20221108 14:53:30.129" endtime="20221108 14:53:30.129"/>
+</kw>
+<kw name="close session" library="tuttur">
+<status status="NOT RUN" starttime="20221108 14:53:30.129" endtime="20221108 14:53:30.129"/>
+</kw>
+<status status="FAIL" starttime="20221108 14:53:30.119" endtime="20221108 14:53:30.130"/>
+</kw>
+<status status="FAIL" starttime="20221108 14:53:30.118" endtime="20221108 14:53:30.132">OSError: [WinError 216] Bu %1 sürümü çalıştırdığınız Windows sürümüyle uyumlu değil. Bilgisayarınızın sistem bilgilerini denetleyin ve ardından yazılım yayıncısına başvurun</status>
+</test>
+<status status="FAIL" starttime="20221108 14:53:28.492" endtime="20221108 14:53:30.135"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="tutturTest">tutturTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
